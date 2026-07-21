@@ -62,7 +62,7 @@ StegArmor provides a layered privacy model. Hiding raw plaintext via steganograp
 ### Environment Setup
 ```bash
 # Clone the repository
-git clone [https://github.com/Nabihhaaa/StegArmor.git](https://github.com/Nabihhaaa/StegArmor.git)
+git clone https://github.com/Nabihhaaa/StegArmor.git
 cd StegArmor
 
 # Initialize virtual environment
