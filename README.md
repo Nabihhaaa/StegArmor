@@ -72,3 +72,28 @@ source venv/bin/activate
 # Install required dependencies
 pip install -r requirements.txt
 
+```
+
+## Usage Guide
+
+### 1. Command-Line Interface (CLI)
+
+**Embed Payload:**
+```Bash
+python3 stegarmor.py embed -i input.png -o stego_output.png -m "CONFIDENTIAL DATA" -p 'SecurePassphrase123!'
+**Extract Payload:**
+
+```Bash
+python3 stegarmor.py extract -i stego_output.png -p 'SecurePassphrase123!'
+## Check Carrier Capacity:
+
+```Bash
+python3 stegarmor.py capacity -i input.png
+## 2. Graphical User Interface (GUI)
+Launch the native desktop interface:
+
+```Bash
+python3 stegarmor_gui.py
+## License
+Distributed under the MIT License. See LICENSE for further details.
+
