@@ -84,20 +84,17 @@ python3 stegarmor.py embed -i input.png -o stego_output.png -m "CONFIDENTIAL DAT
 ```
 Extract Payload:
 
-Bash
 ```
 python3 stegarmor.py extract -i stego_output.png -p 'SecurePassphrase123!'
 ```
 Check Carrier Capacity:
 
-Bash
 ```
 python3 stegarmor.py capacity -i input.png
 ```
  2. Graphical User Interface (GUI)
 Launch the native desktop interface:
 
-Bash
 ```
 python3 stegarmor_gui.py
 ```
