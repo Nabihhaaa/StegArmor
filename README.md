@@ -91,5 +91,5 @@ Launch the native desktop interface:
 
 Bash
 python3 stegarmor_gui.py
-
-
+License
+Distributed under the MIT License. See LICENSE for further details.
