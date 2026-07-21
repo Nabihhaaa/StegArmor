@@ -92,12 +92,12 @@ Check Carrier Capacity:
 ```
 python3 stegarmor.py capacity -i input.png
 ```
- 2. Graphical User Interface (GUI)
+2. Graphical User Interface (GUI)
 Launch the native desktop interface:
 
 ```
 python3 stegarmor_gui.py
 ```
- License
+License
 Distributed under the MIT License. See LICENSE for further details.
 
