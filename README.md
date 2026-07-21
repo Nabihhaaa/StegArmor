@@ -81,19 +81,19 @@ pip install -r requirements.txt
 **Embed Payload:**
 ```Bash
 python3 stegarmor.py embed -i input.png -o stego_output.png -m "CONFIDENTIAL DATA" -p 'SecurePassphrase123!'
-**Extract Payload:**
+Extract Payload:
 
-```Bash
+Bash
 python3 stegarmor.py extract -i stego_output.png -p 'SecurePassphrase123!'
-## Check Carrier Capacity:
+Check Carrier Capacity:
 
-```Bash
+Bash
 python3 stegarmor.py capacity -i input.png
-## 2. Graphical User Interface (GUI)
+ 2. Graphical User Interface (GUI)
 Launch the native desktop interface:
 
-```Bash
+Bash
 python3 stegarmor_gui.py
-## License
+ License
 Distributed under the MIT License. See LICENSE for further details.
 
